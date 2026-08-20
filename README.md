@@ -4,11 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)]()
 
-> Trabalho de Conclusão de Curso (Artigo Científico) — Análise e Desenvolvimento de Sistemas, Instituto Federal de Educação, Ciência e Tecnologia do Piauí (IFPI), Campus Picos.
+> Trabalho de Conclusão de Curso (Artigo Científico) - Análise e Desenvolvimento de Sistemas, Instituto Federal de Educação, Ciência e Tecnologia do Piauí (IFPI), Campus Picos.
 >
 > **Autora:** Thávyne Kerolly Dias Ribeiro
-> **Orientador:** Prof. Me. João Paulo Lima do Nascimento
-> **Coorientador:** Prof. Dr. Rogerio Figueredo de Sousa
 
 ---
 
