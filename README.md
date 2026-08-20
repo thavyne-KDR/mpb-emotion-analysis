@@ -4,11 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)]()
 
-> Trabalho de Conclusão de Curso (Artigo Científico) - Análise e Desenvolvimento de Sistemas, Instituto Federal de Educação, Ciência e Tecnologia do Piauí (IFPI), Campus Picos.
+> Trabalho de Conclusão de Curso (Artigo Científico) — Análise e Desenvolvimento de Sistemas, Instituto Federal de Educação, Ciência e Tecnologia do Piauí (IFPI), Campus Picos.
 >
 > **Autora:** Thávyne Kerolly Dias Ribeiro
-
----
 
 ## 📖 Sobre o projeto
 
@@ -27,13 +25,9 @@ Com base na Roda das Emoções de Plutchik (1980), adaptada ao contexto cultural
 
 `Alegria` · `Tristeza` · `Nostalgia` · `Saudade` · `Amor composto` · `Neutro`
 
----
-
 ## 🎯 Objetivo
 
 Analisar computacionalmente as emoções presentes nas letras da MPB e compará-las com as emoções percebidas pelos ouvintes em comentários do YouTube, avaliando o grau de convergência entre a intenção emocional do compositor e a resposta afetiva do público.
-
----
 
 ## 🧩 Metodologia (visão geral)
 
@@ -64,8 +58,6 @@ Analisar computacionalmente as emoções presentes nas letras da MPB e compará-
 
 Ambos inicializados a partir de `neuralmind/bert-base-portuguese-cased`, com taxa de aprendizado de 2×10⁻⁵, *weight decay* de 0,01, *warmup ratio* de 0,10 e *Cosine Scheduler*.
 
----
-
 ## 📊 Principais resultados
 
 ### Desempenho dos classificadores
@@ -89,8 +81,6 @@ Ambos inicializados a partir de `neuralmind/bert-base-portuguese-cased`, com tax
 ### Modelagem de tópicos (LDA)
 
 Coerência (Cv) por categoria emocional variando entre 0,285 (nostalgia) e 0,403 (amor composto), com tópicos qualitativamente interpretáveis e coerentes com cada categoria afetiva.
-
----
 
 ## 📁 Estrutura do repositório
 
@@ -116,8 +106,6 @@ mpb-emotion-analysis/
 ├── environment.yml / requirements.txt
 └── README.md
 ```
-
----
 
 ## ⚙️ Como reproduzir
 
@@ -162,8 +150,6 @@ python analysis/topic_modeling/lda_by_emotion.py
 
 > ⚠️ Adapte os caminhos e nomes de script acima aos arquivos reais do repositório.
 
----
-
 ## 🔍 Principais limitações
 
 - Rótulos *silver* (não humanos) gerados por estratégias distintas para letras e comentários, o que exige interpretar a comparação compositor–ouvinte como **exploratória**.
@@ -174,25 +160,9 @@ python analysis/topic_modeling/lda_by_emotion.py
 
 Consulte a Seção 4.6 (Ameaças à Validade) do artigo completo para a discussão detalhada.
 
----
+## 📝 Publicação
 
-## 📚 Citação
-
-Este trabalho ainda não possui uma publicação formal associada. Enquanto isso, para citar o TCC:
-
-```bibtex
-@misc{ribeiro2026compositorouvinte,
-  author       = {Ribeiro, Thávyne Kerolly Dias},
-  title        = {Compositor e Ouvinte: Análise Computacional de Emoções na Música Popular Brasileira Utilizando BERTimbau},
-  year         = {2026},
-  howpublished = {Trabalho de Conclusão de Curso, Instituto Federal de Educação, Ciência e Tecnologia do Piauí, Campus Picos},
-  url          = {https://github.com/thavyne-KDR/mpb-emotion-analysis}
-}
-```
-
-> Este README será atualizado com os dados de citação corretos (DOI, venue, ano) assim que o artigo for publicado.
-
----
+Este trabalho será publicado como artigo científico em breve. As informações de citação (DOI, veículo de publicação, etc.) serão adicionadas a este README assim que estiverem disponíveis.
 
 ## 🗂️ Dados e reprodutibilidade
 
@@ -204,16 +174,12 @@ Para garantir a reprodutibilidade integral dos experimentos, este repositório d
 - Os *datasets* consolidados
 - As especificações de ambiente
 
----
-
 ## 📄 Licença
 
-Este projeto está licenciado sob os termos da licença [MIT](LICENSE) - ajuste conforme a licença efetivamente adotada no repositório.
-
----
+Este projeto está licenciado sob os termos da licença [MIT](LICENSE) — ajuste conforme a licença efetivamente adotada no repositório.
 
 ## 📬 Contato
 
 Dúvidas, sugestões ou interesse em colaborar? Abra uma *issue* ou entre em contato:
 
-**Thávyne Kerolly Dias Ribeiro** - thavynekerolly126@gmail.com
+**Thávyne Kerolly Dias Ribeiro** — thavynekerolly126@gmail.com
