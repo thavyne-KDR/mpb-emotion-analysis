@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)]()
 
-> Trabalho de Conclusão de Curso (Artigo Científico) — Análise e Desenvolvimento de Sistemas, Instituto Federal de Educação, Ciência e Tecnologia do Piauí (IFPI), Campus Picos.
+> Trabalho de Conclusão de Curso (Artigo Científico) - Análise e Desenvolvimento de Sistemas, Instituto Federal de Educação, Ciência e Tecnologia do Piauí (IFPI), Campus Picos.
 >
 > **Autora:** Thávyne Kerolly Dias Ribeiro
 
@@ -14,8 +14,8 @@ Este repositório reúne o código, os dados e os artefatos utilizados na pesqui
 
 Para isso, foram desenvolvidos **dois modelos BERTimbau especializados**, cada um ajustado via *fine-tuning* para um domínio textual distinto:
 
-- **Modelo de Letras** — treinado com rótulos gerados por um **léxico emocional expandido** (176 termos), capturando a intenção emocional do compositor.
-- **Modelo de Comentários** — treinado com rótulos gerados por **weak supervision** (Snorkel), combinando 19 *Labeling Functions* heurísticas e o modelo de linguagem **Gemini 2.5 Flash**, capturando a percepção emocional do ouvinte.
+- **Modelo de Letras** - treinado com rótulos gerados por um **léxico emocional expandido** (176 termos), capturando a intenção emocional do compositor.
+- **Modelo de Comentários** - treinado com rótulos gerados por **weak supervision** (Snorkel), combinando 19 *Labeling Functions* heurísticas e o modelo de linguagem **Gemini 2.5 Flash**, capturando a percepção emocional do ouvinte.
 
 As predições dos dois modelos foram então cruzadas para medir a **convergência e divergência emocional entre compositor e ouvinte**, complementadas por análises temporais (por década e por artista) e por modelagem de tópicos (LDA) por categoria emocional.
 
@@ -159,10 +159,6 @@ python analysis/topic_modeling/lda_by_emotion.py
 - Taxonomia emocional restrita a 6 categorias (não contempla medo, raiva, surpresa, esperança, culpa, etc.).
 
 Consulte a Seção 4.6 (Ameaças à Validade) do artigo completo para a discussão detalhada.
-
-## 📝 Publicação
-
-Este trabalho será publicado como artigo científico em breve. As informações de citação (DOI, veículo de publicação, etc.) serão adicionadas a este README assim que estiverem disponíveis.
 
 ## 🗂️ Dados e reprodutibilidade
 
